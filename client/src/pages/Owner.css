@@ -1,0 +1,40 @@
+.containerowner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.small-conatiner{
+    width: 50%;
+}
+.small-conatiner >table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.small-conatiner>td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.small-conatiner>tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.vehicleform{
+    /* border: 2px solid red ; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+.regveh{
+    width: 70%;
+}
+.obtn{
+  height: 15 px;
+  /* width: 50px; */
+  background-color: rgb(216, 142, 45);
+}
